@@ -1,0 +1,242 @@
+.about-contact-form{
+    display: flex;
+    justify-content: center;
+}
+
+
+.contact-section{
+    margin-top: 20px;
+    width: 1040px;
+    height: 680px;
+    padding: 40px 20px;
+    top: 4023px;
+    left: 200px;
+    gap: 48px;
+}
+
+.about-contact-title{
+    gap: 16px;
+    padding-bottom: 20px;
+
+}
+
+.contact-me{
+    display: flex;
+    justify-content: center;
+    height: 24px;
+    padding: 20px 10px;
+}
+
+.contact-me h3{
+    font-size: 18px;
+    font-weight: 600;
+    font-style: italic;
+    line-height: 24px;
+}
+
+.reach-me{
+    display: flex;
+    justify-content: center;
+    height: 56px;
+    padding: 20px 10px;
+}
+
+.reach-me h1{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 56px;
+}
+
+
+.contact-form {
+    text-align: center;
+    width: 1040px;
+    height: 536px;
+    background: rgba(253, 111, 0, 0.1); 
+    padding: 20px 10px;
+    color: var(--font-primary-color); 
+}
+
+.contact-form h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    padding: 20px 10px;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 10px;
+}
+
+.form-row {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    
+}
+
+.form-row input[type="text"],
+.form-row input[type="email"] {
+    flex: 1;
+    padding: 10px;
+    background:  rgba(253, 111, 0, 0.1);
+    border: none;
+    border-bottom: 2px solid var(--font-primary-color);
+    color: #ffffff;
+}
+
+textarea {
+    padding: 10px;
+    background:  rgba(253, 111, 0, 0.1);
+    border: none;
+    border-bottom: 2px solid var(--font-primary-color);
+    color:  #ffffff;
+    resize: none;
+
+}
+
+.custom-file-label {
+    flex: 1;
+    background: none;
+    border: none;
+    color:  #ffffff;
+    padding: 10px 0;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+button {
+    background: var(--primary-color);
+    color:  #ffffff;
+    border: none;
+    padding: 15px 30px;
+    cursor: pointer;
+    font-size: 16px;
+    text-transform: uppercase;
+    align-self: flex-start;
+    margin-top: 20px; 
+}
+
+button:hover {
+    background: #e05e00; 
+}
+
+.final-form{
+    height: 552px;
+    background-color: #000000;
+    top: 4818px;
+    left: -5px;
+    margin-top: 80px;
+    margin-bottom: 45px;
+}
+
+.title-of-Logo{
+    height: 96px;
+    top: 112px;
+    left: 629px;
+    padding-bottom: 30px;
+}
+
+.title-of-Logo h1{
+    display: flex;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 96px;
+    color: var(--primary-color);
+}
+
+.final-form-nav{
+    display: flex;
+    justify-content: center;
+    height: 52px;
+    gap: 12px;
+}
+
+.all-about-nav{
+    width: 93px;
+    height: 52px;
+    padding: 10px 14px;
+    gap: 10px;
+}
+
+.all-about-nav h1{
+    height: 32px;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 31.5px;
+}
+
+.footer-socials{
+    display: flex;
+    justify-content: center;
+    height: 32.48px;
+    top: 373.53px;
+    left: 620px;
+    margin-top: 40px;
+    padding-bottom: 30px;
+}
+
+.footer-copyright-section{
+    display: flex;
+    justify-content: center;
+    height: 32px;
+    top: 494px;
+    left: 513px;
+    padding-top: 30px;
+}
+
+.footer-copyright-section h1{
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 31.5px;
+}
+
+.footer-copyright-section span{
+    color: var(--primary-color)
+}
+   
+
+
+@media only screen and (min-wdith: 200px) and (max-width: 576px){
+
+    .about-contact-form, .contact-section, .contact-form, .final-form-nav, .footer-socials{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .contact-section{
+        width: 100%;
+        padding: 20px 10px;
+    }
+
+    .contact-form input, .contact-form textarea{
+        width: 100%;
+        margin: 5px 0;
+    }
+
+
+    .final-form-nav{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .all-about-nav h1{
+        font-size: 16px;
+    }
+
+    .footer-copyright-section{
+        text-align: center;
+        font-size: 14px;
+    }
+    
+    .footer-socials{
+        margin-top: 10px;
+    }
+
+}

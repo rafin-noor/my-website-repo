@@ -1,0 +1,466 @@
+
+.about-me-desc{
+    display: flex;
+    justify-content: space-between;
+    top: 1058px;
+    left: 200px;
+    height: 125px;
+    padding: 20px 10px;
+    margin: 40px 0px;    
+}
+
+.about-me-section{
+    gap: 20px;
+    width: 541px;
+    height: 108px;
+}
+
+.about-me-title h1{
+    font-size: 40px;
+    font-weight: 800;
+    padding: 10px 0px;
+    text-transform: uppercase;
+}
+
+.my-desc{
+    font-size: 19.69px;
+    font-weight: 400;
+    padding: 25px 0px;
+}
+
+.year{
+    font-size: 40px;
+    font-weight: 800;
+    padding: 10px 0px;
+
+}
+
+.all-star-icons{
+    width: 160px;
+    height: 32px;
+}
+
+.star-icons{
+    width: 26.67px;
+    height: 25.34px;
+    top: 3.33px;
+    left: 2.67px;
+    stroke: #FD853A;
+}
+
+.my-experience-section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.experience-info {
+    width: 458.67px;
+    height: 288px;
+    top: 1417px;
+    left: 193px;
+    padding: 60px 20px; 
+}
+
+.exp-titles{
+    width: 322px;
+    height: 96px;
+    top: 1417px;
+    left: 193px;
+    gap: 16px;
+    padding: 40px 20px;
+}
+
+.experience{
+    width: 99px;
+    height: 24px;
+    padding: 10px 0px;
+}
+
+.experience h1{
+    font-size: 20px;
+    font-weight: 600;
+    font-style: italic;
+}
+ 
+.exp-title{
+    width: 322px;
+    height: 56px;
+    padding: 5px 0px;
+}
+
+.exp-title h1{
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.exp-desc{
+    font-size: 20px;
+    font-weight: 400;
+    padding: 25px 20px;
+    letter-spacing: normal;
+
+}
+
+.exp-info-more{
+    height: 392px;
+    top: 1365px;
+    left: 736px;
+    gap: 40px;
+    padding: 45px 25px;
+
+}
+
+.info-section{
+    height: 104px;
+    gap: 20px;
+    padding: 40px 20px;
+    border-bottom: 1px solid var(--font-primrary-color);
+}
+
+.year-company{
+    display: flex;
+    justify-content: center;
+    gap: 400px;
+    padding-bottom: 30px;
+}
+
+.year-sec{
+    width: 175px;
+    height: 24px;
+    font-size: 18px;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.company-sec{
+    width: 125px;
+    height: 24px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.role{
+    width: 504px;
+    height:48px;
+    top: 36px;
+    font-weight: 700;
+    font-size: 32px;
+    text-transform: uppercase;
+}
+
+.awards-title{
+    display: flex;
+    justify-content: center;
+    height: 108px;
+    gap: 19px;
+
+}
+
+.awards-title h1{
+    font-weight: 800;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: -0.015em;
+    text-align: left;
+}
+
+
+.awards-details-first{
+    width: 1041px;
+    height: 223px;
+    background-color: #000000;
+    border-bottom: 33px solid var(--background-color);
+}
+
+.awards-details-info{
+    display: flex;
+    justify-content: space-between;
+    width: 929px;
+    height: 136px;
+    top: 42px;
+    left: 55.5px;
+    gap: 76px;
+}
+
+.award-title-desc{
+    width: 663px;
+    height: 136px;
+    gap: 24px;
+}
+
+.award-title h1{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    padding: 30px 15px;
+}
+
+.award-desc{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    padding: 15px 15px;
+}
+
+.field{
+    width: 190px;
+    height: 28px;
+
+}
+
+.field h1{
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 28px;
+    padding: 30px 15px;
+}
+
+
+.awards-details-second{
+    width: 1041px;
+    height: 223px;
+    background-color: #000000;
+}
+
+.portfolio-main-titile{
+    width: 767px;
+    height: 212px;
+    gap: 48px;
+}
+
+.portfolio-title{
+    display: flex;
+    justify-content: center;
+    width: 541px;
+    height: 108px;
+    gap: 19px;
+}
+
+.portfolio-title h1{
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 47.4px;
+    text-transform: uppercase;
+}
+
+.portfolio-buttons{
+    display: flex;
+    justify-content: space-evenly;
+    height: 56px;
+}
+
+.portfolio-button-1 button{
+    width: 108px;
+    height: 56px;
+    top: 156px;
+    border: 0.4px solid #545454;
+    background-color: #000000;
+    padding: 10px 20px;
+    gap: 10px;
+    color: var(--font-primrary-color);
+    padding: 0px 10px;
+}
+
+.portfolio-button-1 h1{
+    width: 68px;
+    height: 36px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+}
+
+.portfolio-button-2 button{
+    width: 190px;
+    height: 56px;
+    top: 156px;
+    left: 125px;
+    border: 0.4px solid #545454;
+    background-color: var(--primary-color);
+    padding: 10px 20px;
+    gap: 10px;
+    color: var(--font-primrary-color);
+    padding: 0px 10px;
+}
+
+.portfolio-button-2 h1{
+    width: 150px;
+    height: 36px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+}
+
+
+.portfolio-button-3 button{
+    width: 184px;
+    height: 56px;
+    top: 156px;
+    left: 332px;
+    border: 0.4px solid #545454;
+    background-color: #000000;
+    padding: 10px 20px;
+    gap: 10px;
+    color: var(--font-primrary-color);
+    padding: 0px 10px;
+}
+
+.portfolio-button-3 h1{
+    width: 144px;
+    height: 36px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+}
+
+
+.portfolio-button-4 button{
+    width: 234px;
+    height: 56px;
+    top: 156px;
+    left: 533px;
+    border: 0.4px solid #545454;
+    background-color: #000000;
+    padding: 10px 20px;
+    gap: 10px;
+    color: var(--font-primrary-color);
+    padding: 0px 10px;
+}
+
+.portfolio-button-4 h1{
+    width: 194px;
+    height: 36px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+}
+
+.portfolio-desc{
+    width: 1040px;
+    height: 728px;
+    gap: 60px;
+}
+
+.portfolio-info-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+    padding: 30px 10px;
+}
+
+.portfolio-image-container{
+    width: 445px;
+    height: 334px;
+    background-color: #000000;
+    position: relative;
+    max-width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.portfolio-image-container .main-image img{
+    height: 489px;
+    left: 138px;
+    border-radius: 8px;
+    position: relative;
+    z-index: 2;
+    margin-left: 5%;
+}
+
+.portfolio-image-container .secondary-image img{
+    height: 412px;
+    top: 77px;
+    left: 33px;
+    position: absolute;
+    z-index: 1;
+    border-radius: 8px;
+}
+
+.case-study{
+    width: 559px;
+    height: 262px;
+    gap: 24px;
+    padding: 30px 10px;
+}
+
+
+.case-title{
+    width: 200px;
+    height: 24px;
+    padding-bottom: 25px;
+}
+.case-title h3{
+    font-weight: 600;
+    font-style: italic;
+    line-height: 24px;
+    font-size: 18px;
+}
+
+.research{
+    width: 483px;
+    height: 40px;
+}
+
+.research h1{
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 700;
+    padding-bottom: 20px;
+
+}
+
+.research-desc{
+    width: 559px;
+    height: 150px;
+    gap: 12px;
+    padding-top: 20px;
+}
+
+@media only screen and (min-wdith: 200px) and (max-width: 576px){
+    .about-me-desc{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 10px;
+        margin: 20px 0px;
+    }
+
+    .about-me-title h1, .year, .experience h1, .exp-title h1, .portfolio-title h1, .award-title h1{
+        font-size: 20px;
+    }
+
+    .my-desc, .exp-desc, .award-desc, .research-desc{
+        font-size: 14px;
+    }
+
+    .portfolio-main-titile, .portfolio-buttons{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .portfolio-buttons button{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .portfolio-info-container{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+    }
+
+    .portfolio-image-container{
+        width: 100%;
+        height: auto
+    }
+    
+    .portfolio-image-container img{
+        width: 100%;
+        height: auto;
+    }
+
+}
